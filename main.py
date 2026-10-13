@@ -1,1 +1,12 @@
-print("StudentManager")
+print("StudentManager:")
+name=input("请输入学生姓名：")
+age=int(input("请输入学生年龄："))
+score=int(input("请输入学生分数："))
+student={
+    "name":name,
+    "age":age,
+    "score":score
+}
+print("学生姓名：",student["name"])
+print("学生年龄：",student["age"])
+print("学生分数：",student["score"])
